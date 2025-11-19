@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="55" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="1">
+ <tileset firstgid="1" source="../../../Downloads/UD_Countersr.tsx"/>
+ <imagelayer id="2" name="Camada de Imagens 1" visible="0">
+  <image source="../../../Desktop/Files/spr_tile_wal_fence_strip56.png" width="1792" height="64"/>
+ </imagelayer>
+ <layer id="1" name="Camada de Blocos 1" width="55" height="2" visible="0">
+  <data encoding="csv">
+2,6,4,15,15,3,2147483663,2147483663,1,1,7,7,7,7,16,2,6,2147483653,2147483653,15,2147483653,6,6,1,1,16,4,1,15,15,1,1,7,2147483663,7,7,3,2147483663,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+11,11,13,13,13,12,12,12,10,10,10,10,10,10,10,11,11,11,11,11,2147483663,6,6,10,10,10,13,10,13,13,10,10,10,12,10,10,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Camada de Blocos 2" width="55" height="2">
+  <data encoding="csv">
+2,6,4,1610612754,15,3,3758096402,2147483663,1,7,536870929,2684354577,16,2,6,3,2147483653,15,3,2147483663,2147483663,1,7,536870929,1,16,4,1610612754,15,1,2684354577,536870929,2684354577,16,3,3758096402,2147483663,1,7,7,2684354577,16,1,7,7,2684354577,16,16,4,1610612754,7,7,7,1,1,
+11,11,13,13,13,12,12,2147483661,10,10,10,10,10,11,11,12,12,13,12,12,12,10,10,10,10,10,13,13,13,10,2147483661,12,10,10,12,12,12,10,10,10,10,10,10,10,10,10,10,10,13,13,10,10,10,10,10
+</data>
+ </layer>
+ <imagelayer id="4" name="Camada de Imagens 2" visible="0" opacity="0.5" offsetx="0" offsety="-16">
+  <image source="../../../Desktop/Files/spr_tile_wal_darkwood_plank_strip56.png" width="1792" height="112"/>
+ </imagelayer>
+</map>
