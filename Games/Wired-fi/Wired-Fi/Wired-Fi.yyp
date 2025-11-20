@@ -19,7 +19,11 @@
   },
   "name":"Wired-Fi",
   "resources":[
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
+    {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

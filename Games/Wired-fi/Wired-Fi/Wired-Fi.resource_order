@@ -1,4 +1,9 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Object1","order":1,"path":"objects/Object1/Object1.yy",},
+    {"name":"Script1","order":4,"path":"scripts/Script1/Script1.yy",},
+    {"name":"spr_ball","order":2,"path":"sprites/spr_ball/spr_ball.yy",},
+    {"name":"spr_collider","order":3,"path":"sprites/spr_collider/spr_collider.yy",},
+  ],
 }
