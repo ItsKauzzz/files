@@ -44,3 +44,4 @@ if (state == "drawing") {
 } else if (state == "complete") {
     draw_text(24, 72, "Chegou ao objetivo! Aperte Espaço para jogar novamente.");
 }
+

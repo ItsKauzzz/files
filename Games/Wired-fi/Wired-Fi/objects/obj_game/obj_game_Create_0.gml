@@ -51,3 +51,4 @@ function add_wire_point(px, py) {
 }
 
 reset_round();
+
