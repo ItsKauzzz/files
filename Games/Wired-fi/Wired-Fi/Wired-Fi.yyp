@@ -2,11 +2,11 @@
   "$GMProject":"v1",
   "%Name":"Wired-Fi",
   "AudioGroups":[
-    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1}
   ],
   "configs":{
     "children":[],
-    "name":"Default",
+    "name":"Default"
   },
   "defaultScriptType":0,
   "Folders":[],
@@ -15,26 +15,26 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.14.0.207"
   },
   "name":"Wired-Fi",
   "resources":[
-    {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
-    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
-    {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
-    {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
-    {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
+    {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy"}},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy"}},
+    {"id":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy"}},
+    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy"}},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy"}},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy"}},
+    {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy"}},
+    {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy"}}
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy"}}
   ],
   "templateType":"game",
   "TextureGroups":[
-    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
-  ],
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1}
+  ]
 }
