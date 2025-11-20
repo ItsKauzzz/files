@@ -1,38 +1,62 @@
 {
-  "$GMObject":"v1",
-  "%Name":"obj_game",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0"},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0"},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0"}
-  ],
-  "managed":true,
-  "name":"obj_game",
-  "overriddenProperties":[],
-  "parent":{
-    "name":"",
-    "path":""
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_game",
+  "spriteId": null,
+  "spriteMaskId": null,
+  "solid": false,
+  "visible": true,
+  "persistent": false,
+  "managed": true,
+  "parentObjectId": null,
+  "parent": {
+    "name": "",
+    "path": ""
   },
-  "parentObjectId":null,
-  "persistent":false,
-  "physicsAngularDamping":0.1,
-  "physicsDensity":0.5,
-  "physicsFriction":0.2,
-  "physicsGroup":0,
-  "physicsKinematic":false,
-  "physicsLinearDamping":0.1,
-  "physicsObject":false,
-  "physicsRestitution":0.1,
-  "physicsSensor":false,
-  "physicsShape":1,
-  "physicsShapePoints":[],
-  "physicsStartAwake":true,
-  "properties":[],
-  "resourceType":"GMObject",
-  "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
-  "visible":true
+  "eventList": [
+    {
+      "resourceType": "GMEvent",
+      "resourceVersion": "1.0",
+      "eventType": 0,
+      "eventNum": 0,
+      "enumb": 0,
+      "isDnD": false,
+      "collisionObjectId": null,
+      "name": ""
+    },
+    {
+      "resourceType": "GMEvent",
+      "resourceVersion": "1.0",
+      "eventType": 3,
+      "eventNum": 0,
+      "enumb": 0,
+      "isDnD": false,
+      "collisionObjectId": null,
+      "name": ""
+    },
+    {
+      "resourceType": "GMEvent",
+      "resourceVersion": "1.0",
+      "eventType": 8,
+      "eventNum": 0,
+      "enumb": 0,
+      "isDnD": false,
+      "collisionObjectId": null,
+      "name": ""
+    }
+  ],
+  "overriddenProperties": [],
+  "properties": [],
+  "physicsObject": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsGroup": 0,
+  "physicsDensity": 0.5,
+  "physicsRestitution": 0.1,
+  "physicsLinearDamping": 0.1,
+  "physicsAngularDamping": 0.1,
+  "physicsFriction": 0.2,
+  "physicsStartAwake": true,
+  "physicsKinematic": false,
+  "physicsSensor": false
 }
-
