@@ -2,16 +2,16 @@
   "$GMObject":"",
   "%Name":"obj_controller",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0"},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0"},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0"}
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":7,"isDnD":false,"m_owner":null,"resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_controller",
   "overriddenProperties":[],
   "parent":{
     "name":"Wired-Fi",
-    "path":"Wired-Fi.yyp"
+    "path":"Wired-Fi.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,5 +33,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":true
+  "visible":true,
 }
