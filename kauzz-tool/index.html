@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kauzz Palette Tool</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Kauzz Tool</p>
+          <h1>Gerador e substituidor de paletas por imagem</h1>
+          <p class="subtitle">
+            Importe uma imagem, extraia uma paleta agrupada por hue e organize as
+            cores do tom mais escuro para o mais claro. Depois, importe outra
+            paleta e faça substituições diretamente sobre a imagem.
+          </p>
+        </div>
+      </header>
+
+      <section class="controls-grid">
+        <article class="panel">
+          <h2>1. Imagem de entrada</h2>
+          <label class="file-input">
+            <span>Selecionar imagem</span>
+            <input id="imageInput" type="file" accept="image/*" />
+          </label>
+          <div class="control-row">
+            <label>
+              Cores máximas
+              <input id="paletteSize" type="range" min="4" max="24" value="12" />
+            </label>
+            <output id="paletteSizeValue">12</output>
+          </div>
+          <button id="extractPaletteButton" class="primary" disabled>
+            Extrair paleta
+          </button>
+          <p class="hint">
+            A extração faz quantização, agrupa hues próximos e ordena cada grupo
+            da cor mais escura para a mais clara.
+          </p>
+        </article>
+
+        <article class="panel">
+          <h2>2. Paletas</h2>
+          <div class="button-row">
+            <button id="exportPaletteButton" disabled>Exportar paleta atual</button>
+            <label class="file-input secondary">
+              <span>Importar paleta JSON</span>
+              <input id="paletteImportInput" type="file" accept="application/json" />
+            </label>
+          </div>
+          <p id="paletteImportStatus" class="hint">
+            Nenhuma paleta importada ainda.
+          </p>
+          <div class="legend">
+            <span><strong>Paleta da imagem</strong>: base para substituição.</span>
+            <span><strong>Paleta importada</strong>: destino sugerido.</span>
+          </div>
+        </article>
+
+        <article class="panel">
+          <h2>3. Substituição</h2>
+          <button id="applyReplacementButton" class="primary" disabled>
+            Aplicar substituição de cores
+          </button>
+          <button id="downloadButton" disabled>Baixar imagem editada</button>
+          <p class="hint">
+            Os mapeamentos são sugeridos automaticamente por ordem, mas você pode
+            trocar manualmente cada cor de destino abaixo.
+          </p>
+        </article>
+      </section>
+
+      <section class="workspace-grid">
+        <article class="panel canvas-panel">
+          <div class="panel-header">
+            <h2>Prévia da imagem</h2>
+            <span id="imageMeta" class="meta">Nenhuma imagem carregada</span>
+          </div>
+          <div class="canvas-stage">
+            <canvas id="previewCanvas"></canvas>
+          </div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2>Paleta extraída</h2>
+            <span id="paletteSummary" class="meta">0 cores</span>
+          </div>
+          <div id="paletteGroups" class="palette-groups empty-state">
+            Carregue uma imagem para visualizar a paleta.
+          </div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Mapeamento de substituição</h2>
+          <span id="mappingSummary" class="meta">Nenhum mapeamento disponível</span>
+        </div>
+        <div id="mappingList" class="mapping-list empty-state">
+          Importe uma imagem e uma paleta para habilitar as substituições.
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
